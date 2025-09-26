@@ -1,0 +1,61 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: aqua;
+}
+
+
+.navbar {
+  position: fixed;       
+  top: 0;
+  width: 100%;
+  background: #333;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.navbar ul li {
+  display: inline-block;
+  margin: 10px;
+
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+}
+.navbar ul li a:hover {
+  background: #555;
+  border-radius: 5px;
+}
+
+
+section {
+  padding: 80px 20px;
+  min-height: 100vh;
+  background-color: aquamarine;
+}
+#home {
+  text-align: center;
+  background: #f4f4f4;
+  background-color: blueviolet;
+}
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+  border: 3px solid #333;
+}
+
+
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 15px;
+}
